@@ -1,4 +1,25 @@
-Durable Function App with Asynchronous calls to the Activities 
+# Durable Function App with Asynchronous calls to the Activities 
+
+The changes to the [Documentation]([url](https://learn.microsoft.com/en-us/azure/azure-functions/durable/quickstart-python-vscode?tabs=windows%2Cazure-cli-set-indexing-flag&pivots=python-mode-decorators))
+
+## Orchestratos Code - The main change
+
+```python
+# Orchestrator
+@myApp.orchestration_trigger(context_name="context")
+def hello_orchestrator(context):
+    tasks = []
+    cities = ["Tokyo", "Seattle", "London"]
+    
+    for city in cities:
+        tasks.append(context.call_activity('hello', city))
+    
+    results = yield context.task_all(tasks)
+
+    return results
+```
+
+## Complete Code
 
   ```python
 import azure.functions as func
