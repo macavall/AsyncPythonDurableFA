@@ -2,7 +2,7 @@
 
 The changes to the [Documentation]([url](https://learn.microsoft.com/en-us/azure/azure-functions/durable/quickstart-python-vscode?tabs=windows%2Cazure-cli-set-indexing-flag&pivots=python-mode-decorators))
 
-## Orchestratos Code - The main change
+## Orchestratos Code - The Main Change
 
 ```python
 # Orchestrator
