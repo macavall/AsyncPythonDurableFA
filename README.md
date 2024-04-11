@@ -1,6 +1,6 @@
 # Durable Function App with Asynchronous calls to the Activities 
 
-The changes to the [Documentation]([url](https://learn.microsoft.com/en-us/azure/azure-functions/durable/quickstart-python-vscode?tabs=windows%2Cazure-cli-set-indexing-flag&pivots=python-mode-decorators))
+The changes from the main [Documentation](https://learn.microsoft.com/en-us/azure/azure-functions/durable/quickstart-python-vscode?tabs=windows%2Cazure-cli-set-indexing-flag&pivots=python-mode-decorators)
 
 ## Orchestratos Code - The Main Change
 
